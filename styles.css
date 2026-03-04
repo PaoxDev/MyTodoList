@@ -1,0 +1,84 @@
+body {
+  background-color: ivory;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 0;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 10px; 
+}
+
+section {
+  background-color: beige;
+  margin: 50px auto; 
+  width: 400px; 
+  padding: 40px;
+  border-radius: 10px;
+}
+
+label {
+  margin: 0px;
+  padding: 10px;
+}
+
+
+.task {
+  background-color: lightblue;
+  padding: 15px; 
+  margin: 20px 0;
+  margin-bottom: auto;
+  margin-left: -50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  align-items: center;
+  line-height: normal;
+  height: auto;
+}
+
+label {
+  display: inline-block; 
+  margin-left: 8px;
+  padding: 0;
+  flex: 1;
+
+}
+
+
+.sub-item {
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.sub-item-link {
+  text-decoration: none;
+}
+
+a:link {
+  color: navy;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:focus {
+  outline: 2px solid black;
+}
+
+a:active {
+  color: pink;
+}
+
